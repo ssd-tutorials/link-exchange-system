@@ -1,0 +1,393 @@
+html {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	margin: 0px;
+	padding-top: 15px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+	text-align: center;
+	background-color: #DEE3E7;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #4E5A65;
+}
+a:link, a:active, a:hover {
+	color: #4E5A65;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+h1 {
+  display: block;
+  text-indent: -999999px;
+  overflow: hidden;
+  height: 0px;
+}
+#wrapper {
+	text-align: left;
+	padding: 10px;
+	height: auto;
+	width: 780px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color: #fff;
+	border-top-width: 7px;
+	border-right-width: 1px;
+	border-bottom-width: 7px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #A0AEBA;
+	border-right-color: #A0AEBA;
+	border-bottom-color: #A0AEBA;
+	border-left-color: #A0AEBA;
+}
+#header {
+	margin: 0px;
+	padding: 0px;
+	height: 80px;
+	width: 778px;
+	position: relative;
+	background-attachment: scroll;
+	background-image: url(../images/header.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	border: 1px solid #DEE3E7;
+}
+#header p {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+	position: absolute;
+	top: 33px;
+	left: 20px;
+	font-size: 12px;
+	text-transform: lowercase;
+}
+#container {
+	background-color: #FCFCFC;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	padding-top: 15px;
+	padding-right: 40px;
+	padding-bottom: 15px;
+	padding-left: 40px;
+	overflow: hidden;
+}
+#title {
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+    font-weight: bold;
+}
+/*********************************** Link Exchange ***************************************/
+#categories {
+	padding: 0px;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	list-style-image: none;
+	list-style-type: none;
+	height: auto;
+	width: 100%;
+}
+#categories li {
+	padding: 0px;
+	float: left;
+	width: 48%;
+	margin-top: 0px;
+	margin-right: 0.5%;
+	margin-bottom: 1%;
+	margin-left: 0.5%;
+}
+#categories li a:link, #categories li a:active, #categories li a:visited {
+	margin: 0px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	width: 100%;
+	display: block;
+	height: auto;
+	text-decoration: none;
+	text-align: center;
+	background-color: #DEE3E7;
+	border: 1px solid #A0AEBA;
+}
+#categories li a:hover {
+	background-color: #FCFCFC;
+}
+#linksdisp {
+	line-height: 1.5em;
+	clear: both;
+	display: block;
+	padding: 0px;
+	margin: 0px;
+}
+#linksdisp li {
+	margin: 0px;
+	padding: 10px 0px 10px 0px;
+}
+#linksdisp li a {
+	font-weight: bold;
+	color: #A44F2B;
+	text-decoration: underline;
+}
+#linksdisp li a:hover {
+	text-decoration: none;
+}
+.link {
+	font-size: 10px;
+	font-style: italic;
+	color: #A0AEBA;
+}
+.linkcat {
+	font-size: 10px;
+	color:#999;
+}
+/********************** Recordset paging *********************/
+#paging {
+	padding:0px;
+	margin:20px 0px 20px 0px;
+}
+#paging a:link, #paging a:active, #paging a:visited {
+	padding:1px 5px 1px 5px;
+	margin:0px 5px 0px 0px;
+	border:solid 1px #999;
+	text-decoration:none;
+	background:#fff;
+}
+#paging a:hover {
+	text-decoration:none;
+	background:#dadada;
+}
+#paging .inactive {
+	padding:1px 5px 1px 5px;
+	margin:0px 5px 0px 0px;
+	background:transparent;
+	color:#ccc;
+	border:solid 1px #ccc;
+}
+/********************** /Recordset paging *********************/
+#searchform {
+	height: auto;
+	width: auto;
+	position: relative;
+	display: block;
+	padding: 5px 0px 5px 0px;
+	margin: 0px 0px 30px 0px;
+    border: solid 1px #dadada;
+    background-image: url(../images/pattern.gif);
+    background-repeat: repeat;
+}
+#searchwrapper {
+	margin: 0px;
+	padding: 0px;
+}
+#searchwrapper th {
+  padding: 3px 15px 3px 15px;
+  margin: 0px;
+  font-weight: bold;
+  width: 100px;
+  text-align: left;
+}
+#searchwrapper td {
+  padding: 3px;
+  margin: 0px;
+  text-align: center;
+}
+#searchform input {
+	height: 20px;
+	width: auto;
+	border: 1px solid #dadada;
+	margin: 0px;
+	padding: 0px;
+}
+#searchform input#keyword {
+  width: 440px;
+}
+#searchform a {
+  padding: 0px;
+  margin: 0px 15px 0px 0px;
+  color: #4E5A65;
+  text-decoration: underline;
+}
+#searchform a:hover {
+  text-decoration: none;
+}
+
+#searchwrapper input.searchbutton, #tblsubmit .btn_submit {
+	height: 22px;
+	width: 100px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 11px;
+	text-align: center;
+    background-color: #f1f1f1;
+	color: #536573;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	cursor: pointer;
+	text-transform: lowercase;
+}
+#linkField {
+	margin: 0px;
+	padding: 10px;
+	height: 1%;
+	width: auto;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;
+    border: solid 1px #dadada;
+}
+#formsubmit {
+	margin:20px 0px 0px 0px;
+	padding:0px;
+}
+#tblsubmit {
+	margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+	padding: 0px;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #dadada;
+	border-left-color: #dadada;
+}
+#tblsubmit caption {
+	text-align: left;
+	font-weight: bold;
+	height: auto;
+	width: auto;
+	background-color: #f1f1f1;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border-top-width: 5px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #dadada;
+	border-left-color: #dadada;
+	text-transform: uppercase;
+	border-bottom-style: none;
+	border-right-color: #dadada;
+}
+#tblsubmit th {
+	background-color: #f1f1f1;
+	font-weight: bold;
+	color: #4E5A65;
+	margin: 0px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	text-align: right;
+	vertical-align: top;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #dadada;
+	border-bottom-color: #dadada;
+}
+#tblsubmit td {
+	margin: 0px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #dadada;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #dadada;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	text-align: left;
+	vertical-align: middle;
+}
+#tblsubmit tr {
+	background-color: #fff;
+}
+#tblsubmit input, #tblsubmit textarea, #tblsubmit select {
+  background-color: #FCFCFC;
+  border: 1px solid #dadada;
+  color: #666;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+}
+#tblsubmit input, #tblsubmit select {
+	width:300px;
+}
+#tblsubmit textarea {
+	width:400px;
+	height:100px;
+}
+#tblsubmit input#addcharl {
+	background-color: #fff;
+	border: none;
+}
+#tblsubmit input#button {
+	width:200px;
+	height:auto;	
+}
+.messagebox {
+	background-color:#fff;
+	text-align:left;
+	vertical-align:middle;
+	line-height:1.5em;
+}
+.messagebox p {
+	margin:0px;
+	padding:0px;
+	font-weight: bold;
+	color: #990000;
+}
+/*********************************** /Link exchange ***************************************/
+
+#footer {
+	margin: 0px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	text-align: center;
+	background-color: #FCFCFC;
+	clear: both;
+}
+#footer p {
+	color: #A0AEBA;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#footer a {
+	color: #A0AEBA;
+	text-decoration: none;
+}
+#footer a:hover {
+	color: #677C8D;
+	text-decoration: none;
+}
